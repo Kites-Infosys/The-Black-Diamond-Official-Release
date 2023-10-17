@@ -1,0 +1,57 @@
+// page
+
+   @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@600&display=swap');
+.cr-page {
+  min-height: 100vh;
+  &__header {
+    @include media-breakpoint-down(sm) {
+      flex-direction: column;
+      align-items: flex-start;
+font-family: 'Ysabeau Infant', sans-serif;
+    }
+    display: flex;
+    align-items: flex-end;
+    align-self: center;
+font-family: 'Ysabeau Infant', sans-serif;
+  }
+
+  &__title {
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 0;
+font-family: 'Ysabeau Infant', sans-serif;
+    }
+    padding-right: 0.5rem;
+    margin-bottom: 1rem;
+font-family: 'Ysabeau Infant', sans-serif;
+  }
+
+  &__breadcrumb {
+    @include media-breakpoint-down(sm) {
+      align-self: flex-start;
+font-family: 'Ysabeau Infant', sans-serif;
+    }
+    align-self: flex-end;
+    padding: 0;
+    text-transform: normal;
+font-family: 'Ysabeau Infant', sans-serif;
+    background: theme-color('light');
+  }
+
+  .row {
+    // stylelint-disable-next-line
+    .col,
+    > [class^='col-'] {
+      margin-bottom: 1rem;
+font-family: 'Ysabeau Infant', sans-serif;
+    }
+  }
+}
+
+.cr-page-spinner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+font-family: 'Ysabeau Infant', sans-serif;
+  justify-content: center;
+  align-items: center;
+}

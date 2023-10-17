@@ -1,0 +1,31 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@600&display=swap');
+.nav-item {
+  .nav-link {
+    display: flex;
+    font-family: 'Ysabeau Infant', sans-serif;
+    align-items: center;
+
+    &.active {
+      color: #fff;
+      font-family: 'Ysabeau Infant', sans-serif;
+      background: rgba(255, 255, 255, .23);
+      opacity: 1;
+    }
+  }
+}
+
+.sidebar .nav a {
+  transition: all 150ms ease-in;
+
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.card-header {
+    background-color: yellow;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.badge:empty {
+  display: inline-block;
+  font-family: 'Ysabeau Infant', sans-serif;
+}

@@ -1,0 +1,50 @@
+// source: https://github.com/daneden/animate.css
+ @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@600&display=swap');
+
+@keyframes swing {
+  20% {
+    transform: rotate3d(0, 0, 1, 15deg);
+    font-family: 'Ysabeau Infant', sans-serif;
+  }
+
+  40% {
+    transform: rotate3d(0, 0, 1, -10deg);
+    font-family: 'Ysabeau Infant', sans-serif;
+  }
+
+  60% {
+    transform: rotate3d(0, 0, 1, 5deg);
+  
+      font-family: 'Ysabeau Infant', sans-serif;
+  }
+
+  80% {
+    transform: rotate3d(0, 0, 1, -5deg);
+  font-family: 'Ysabeau Infant', sans-serif;
+      
+  }
+
+  to {
+    transform: rotate3d(0, 0, 1, 0deg);
+  font-family: 'Ysabeau Infant', sans-serif;
+      
+  }
+}
+
+.swing {
+  transform-origin: top center;
+  animation-name: swing;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+

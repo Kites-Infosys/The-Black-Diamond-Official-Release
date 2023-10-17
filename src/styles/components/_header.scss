@@ -1,0 +1,25 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@600&display=swap');
+
+.cr-header {
+  margin-bottom: $spacer * .5;
+  border-bottom: $border-width solid $border-color;
+  font-family: 'Ysabeau Infant', sans-serif;
+
+  &__nav-right {
+    flex-direction: row;
+    justify-content: flex-end;
+font-family: 'Ysabeau Infant', sans-serif;
+    margin-left: auto;
+  }
+
+  // &__notification-popover {
+  //   &.popover {
+  //     width: 320px;
+  //     max-width: 320px;
+  //     max-height: 100vh;
+  //     overflow-y: scroll;
+  //     cursor: pointer;
+  //   }
+  // }
+}

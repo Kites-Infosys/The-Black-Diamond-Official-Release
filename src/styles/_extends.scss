@@ -1,0 +1,14 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@600&display=swap');
+.card-img-left {
+  border-radius: 0;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-bottom-left-radius: calc(.25rem - 1px);
+  font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.card-img-right {
+  border-radius: 0;
+  border-top-right-radius: calc(.25rem - 1px);
+  border-bottom-right-radius: calc(.25rem - 1px);
+  font-family: 'Ysabeau Infant', sans-serif;
+}
